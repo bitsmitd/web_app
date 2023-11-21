@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(23, 10, 124)
+}
+
+
+aside {
+    float: left;
+    background-color: rgb(16, 111, 158);
+    width: 10%;
+    padding: 0.5%;
+    height: 100vh;
+    border-right: 1px solid #4d4d4d;
+}
+
+aside .logo{
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top:+11px;
+}
+
+aside h3 {
+    margin-top: 25px;
+    font-size: 20;
+}
+
+aside ul{list-style: none;}
+aside ul{
+    color: floralwhite;
+    display: block;
+    margin-top: 20px;
+    transition: all .10s ease;
+
+}
+
+
+aside ul li:hover, aside ul a:hover {
+    color:rgb(255, 00, 00);
+    text-decoration: none;
+    transform: scale(1.05);
+}
